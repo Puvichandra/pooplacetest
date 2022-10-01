@@ -1,0 +1,22 @@
+.filter{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.filter button{
+    background: none;
+    color: var(--color-info-light);
+    background: var(--color-dark);
+    padding: 1rem;
+    border-radius: var(--border-radius-1);
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+
+.filter button:hover{
+    background: transparent;
+    border: 1px solid var(--color-info-light);
+}
+
+

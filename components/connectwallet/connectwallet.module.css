@@ -1,0 +1,34 @@
+.connect__wallet{
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+    position: relative;
+    z-index: 5;
+}
+
+.connect__wallet:hover{
+    background: var(--color-dark);
+    border: none;
+    box-shadow: var(--box-shadow);
+}
+
+
+@media screen and (max-width: 325px){
+
+    .connect__wallet{
+        padding: 1rem ;
+        width: max-content;
+        align-self: flex-end;
+    }
+}
+
+
+@media screen and (max-width: 455px){
+
+    .connect__wallet{
+        padding: 1rem;
+    }
+}

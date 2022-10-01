@@ -1,0 +1,120 @@
+.nft__card{
+    width: 18rem;
+    height: 22rem;
+    background: var(--color-dark);
+    border-radius: var(--border-radius-3);
+    padding: 0.7rem;
+    gap: 2.5%;
+    box-shadow: var(--box-shadow);
+    display: grid;
+    grid-template-rows: 75% 10% 10% ;
+    transition: var(--transition);
+}
+.nft__card:hover{
+    transform: translateY(-4%);
+}
+.card__image{
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius-3);
+    
+}
+.card__image img{
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius-3);
+}
+
+.nft__price{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.nft__price img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+@media screen and (max-width: 1180px){
+    .nft__card{
+        width:15rem ;
+        height: 19rem ;
+        gap: 4%;
+    }
+}
+@media screen and (max-width: 1020px){
+    .nft__card{
+        width:18rem ;
+        height: 22rem ;
+        gap: 2.5%;
+    }
+}
+
+@media screen and (max-width: 842px){
+    .nft__card{
+        width: 15rem;
+        height: 19em;
+        gap: 4%;
+    }
+}
+
+@media screen and (max-width: 740px){
+    .nft__card{
+        width:18rem ;
+        height: 22rem ;
+        gap: 2.5%;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .nft__card{
+        width:15rem;
+        height: 19rem ;
+        gap: 4%;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .nft__card{
+       
+        gap: 4%; 
+        width: 13rem;
+        height: 17rem;
+    }
+    .nft__price img{
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 390px){
+
+    .nft__card{
+        width: 10.5rem;
+        height: 14.5rem;
+        gap: 4%;
+    }
+    .nft__price img{
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+@media screen and (max-width: 365px){
+    .nft__card{
+        width: 8.5rem;
+        height: 12.5rem;
+        gap: 3%;
+    }
+    .nft__price{
+        margin-top: 0.4rem;
+    }
+    .nft__price img{
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+}

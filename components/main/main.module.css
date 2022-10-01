@@ -1,0 +1,34 @@
+.main{
+    height:max-content;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+.inactive{
+    display: none;
+}
+.blackscreen{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+
+@media screen and (max-width: 1242px){
+   .main{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+   }
+
+
+    }
+
+
+

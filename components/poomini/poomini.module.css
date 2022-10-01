@@ -1,0 +1,51 @@
+.poomini{
+    /* display: none; */
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+   
+}
+
+.claimbtn{
+    background: var(--color-dark);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    position: relative;
+    z-index: 5;
+}
+.claimbtn:hover{
+    background: transparent;
+    border: 1px solid white;
+}
+
+
+
+@media screen and (max-width: 1240px){
+
+    .poomini{
+        gap: 4rem;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .poomini{
+        gap: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 455px){
+    .claimbtn{
+        padding: 1rem;
+    }
+}

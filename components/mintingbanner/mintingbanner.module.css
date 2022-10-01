@@ -1,0 +1,82 @@
+.minting__banner{
+    background: url('../../public/img/poopbanner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vh;
+    border-radius: var(--border-radius-3);
+    box-shadow: var(--box-shadow);
+    position: relative;
+
+}
+.poster__image{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 45vh;
+ 
+}
+
+
+
+@media screen and (max-width: 1520px){
+    .poster__image2{
+       height: 40vh;
+    }
+   .banner__size{
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 1310px){
+    .poster__image2{
+       height: 35vh;
+    }
+    .banner__size{
+        height: 25vh;
+    }
+}
+@media screen and (max-width: 1160px){
+    .poster__image2{
+       height: 30vh;
+    }
+    .banner__size{
+        height: 20vh;
+    }
+}
+@media screen and (max-width: 1020px){
+    .poster__image2{
+       height: 25vh;
+    }
+    .banner__size{
+        height: 15vh;
+    }
+}
+
+@media screen and (max-width: 842px){
+    .poster__image2{
+        height: 25vh;
+     }
+     .banner__size{
+         height: 20vh;
+     }
+}
+@media screen and (max-width: 640px){
+    .poster__image2{
+        height: 20vh;
+       
+     }
+     .banner__size{
+         height: 15vh;
+     }
+}
+@media screen and (max-width: 510px){
+    .poster__image2{
+        height: 20vh;
+       
+     }
+     .banner__size{
+         height: 15vh;
+     }
+}

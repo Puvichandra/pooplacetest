@@ -1,0 +1,89 @@
+.claimrewards{
+    position: fixed;
+    left: -2%;
+    top: -3%;
+    z-index: 999;
+    background:  rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110vw;
+    height: 110vh;
+}
+
+.content__wrapper{
+    background: var(--color-dark);
+    padding: 3rem 0rem;
+    width: 60vw;
+    text-align: center;
+    border-radius: var(--border-radius-3);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 3.3rem;
+}
+.claim__close{
+    position: absolute;
+    font-size: 2.3rem;
+    right: 1.5rem;
+    top: 1.5rem;
+}
+
+.claim__wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.claim__wrapper > div{
+    padding: 2.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.claim__wrapper h2{
+    margin-bottom: 2rem;
+}
+
+.claimrewards button{
+    background: var(--color-gradient);
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: var(--border-radius-1);
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: var(--transition);
+    width: 70%;
+    align-self: center;
+}
+
+.claimrewards button:hover{
+    background: linear-gradient(to right ,#310E68 , #5F0F40 );;
+    color: white;
+}
+
+.to__claim{
+    /* border-right: 1px solid white; */
+}
+
+
+
+@media screen and (max-width: 920px){
+    .content__wrapper{
+        width: 80vw;
+        gap: 0rem;
+    }
+    .claim__wrapper{
+        flex-direction: column;
+    }
+    .claim__wrapper > div{
+        margin: 0 auto;
+        width: 70%;
+    }
+    .to__claim{
+        /* border-bottom: 1px solid white; */
+        border-right:none ;
+    }
+}
